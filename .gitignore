@@ -40,4 +40,10 @@ log.txt
 # ExampleRunner logs
 ExampleRunner-*/
 
+#sparse data formats
+*.hdf5
+*.h5ad
+
 core
+ToDo_Scenery_dimensionalR
+
