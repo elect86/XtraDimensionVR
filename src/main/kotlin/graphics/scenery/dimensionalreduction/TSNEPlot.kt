@@ -139,7 +139,7 @@ class TSNEPlot(val fileName: String = "GMB_cellAtlas_data.csv "): Node() {
         // hashmap to emulate at run time variable declaration
         // allows for dynamically growing number of master spheres with size of dataset
         for (i in 1..masterCount){
-            val masterTemp = Icosphere(0.1f * positionScaling, 1)
+            val masterTemp = Icosphere(0.08f * positionScaling, 1)
             masterMap[i] = addMasterProperties(masterTemp, i)
         }
 
