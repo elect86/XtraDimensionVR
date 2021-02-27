@@ -192,8 +192,11 @@
             <version>1.4.20</version>
             <scope>compile</scope>
         </dependency>
-
-
+        <dependency>
+            <groupId>com.bc.zarr</groupId>
+            <artifactId>jzarr</artifactId>
+            <version>0.3.3-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <repositories>
@@ -201,12 +204,15 @@
             <id>scijava.public</id>
             <url>https://maven.scijava.org/content/groups/public</url>
         </repository>
-
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
-
+        <repository>
+            <id>bc-nexus-repo</id>
+            <name>Brockmann-Consult Public Maven Repository</name>
+            <url>http://nexus.senbox.net/nexus/content/groups/public/</url>
+        </repository>
     </repositories>
 
 
