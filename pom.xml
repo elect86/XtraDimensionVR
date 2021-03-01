@@ -197,6 +197,13 @@
             <artifactId>jzarr</artifactId>
             <version>0.3.3-SNAPSHOT</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-api -->
+        <dependency>
+            <groupId>org.nd4j</groupId>
+            <artifactId>nd4j-api</artifactId>
+            <version>1.0.0-beta7</version>
+        </dependency>
+
     </dependencies>
 
     <repositories>
